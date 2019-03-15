@@ -23,6 +23,6 @@ Ejects  the app configuration. Read more on `create-react-app`.<br>
 
 ## Demo
 
-The app has required and open user credentials. It will remember you credentials and favorite cats.
+The app has required and open user credentials. It will remember your credentials and favorite cats.
 
 [![react-cats-demo](https://raw.githubusercontent.com/jcvilap/react-cats/master/public/demo.png)](https://vimeo.com/323993316)
