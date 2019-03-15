@@ -25,4 +25,4 @@ Ejects  the app configuration. Read more on `create-react-app`.<br>
 
 The app has required and open user credentials. It will remember you credentials and favorite cats.
 
-[![react-cats-demo]()](https://vimeo.com/323993316)
+[![react-cats-demo](https://vimeo.com/323993316)](https://vimeo.com/323993316)
