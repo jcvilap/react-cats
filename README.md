@@ -4,7 +4,7 @@ This project is a React boilerplate that includes initial setup of `react-router
 
 The app has required and open user credentials. It will remember your credentials and favorite cats.
 
-[![react-cats-demo](https://raw.githubusercontent.com/jcvilap/react-cats/master/public/demo.png)](https://vimeo.com/323993316)
+[![react-cats-demo](https://raw.githubusercontent.com/jcvilap/react-cats/master/public/demo-cats.png)](https://vimeo.com/323993316)
 
 
 ## Available Scripts
