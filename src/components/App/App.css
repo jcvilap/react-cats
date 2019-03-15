@@ -1,0 +1,7 @@
+.app-container {
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-image: linear-gradient(lightgray, white);
+    text-align: center;
+    padding-top: 75px;
+}

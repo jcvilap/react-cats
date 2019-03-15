@@ -1,0 +1,110 @@
+.navbar {
+    text-align: center;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 99;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar + div {
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.navbar-container {
+    line-height: 35px;
+    width: calc(100% - 200px);
+    max-width: 1024px;
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+}
+
+.title {
+    padding: 20px 15px;
+    background: #222;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-item {
+    padding: 0 30px;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 75px;
+    font-size: larger;
+    color: #4CAF50;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    background: #dcdcdc;
+}
+
+.navbar-container ul {
+    margin: 0;
+    padding: 0 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    float: left;
+}
+
+.sign-out-con {
+    position: absolute;
+    top: 4px;
+    width: 100%;
+    right: 5px;
+}
+
+.sign-out-container span {
+    font-style: italic;
+    line-height: 75px;
+    margin-right: 20px;
+}
+
+.sign-out-container button {
+    width: 105px;
+    border-radius: 0;
+    line-height: 56px;
+    font-weight: 600;
+    padding: 9px 10px !important;
+}
+
+@media only screen and (max-width: 810px) {
+    .navbar-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .sign-out-container span {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .nav-item {
+        display: none;
+    }
+}

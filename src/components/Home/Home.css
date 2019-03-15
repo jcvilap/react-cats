@@ -1,0 +1,51 @@
+.home-container h1 {
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.home-container img {
+    max-width: 600px;
+    width: calc(100% - 10px);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.text {
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.action-icon {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 8px 10px !important;
+    margin: 0 5px;
+    border-radius: 4px;
+    width: 55px !important;
+}
+
+.action-icon span {
+    font-size: x-small;
+    margin-top: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .text {
+        font-size: 15px;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+
+    .refresh {
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .text {
+        display: none;
+    }
+}
