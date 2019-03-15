@@ -25,4 +25,5 @@ Ejects  the app configuration. Read more on `create-react-app`.<br>
 
 The app has required and open user credentials. It will remember you credentials and favorite cats.
 
+[![react-admin-demo](https://marmelab.com/react-admin/img/react-admin-demo-still.png)](https://vimeo.com/268958716)
 [![react-cats-demo](https://vimeo.com/323993316)](https://vimeo.com/323993316)
